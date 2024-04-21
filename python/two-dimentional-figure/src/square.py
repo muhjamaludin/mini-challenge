@@ -5,14 +5,11 @@ def square_fill(n: int):
     Parameters:
     n (int): Size of square
     """
-    print()
-
+    
     for i in range(0, n):
         for j in range(0, n):
             print("*", end=" ")
         print()
-
-    print()
 
 
 def square(n: int):
@@ -22,8 +19,7 @@ def square(n: int):
     Parameters:
     n (int): Size of square
     """
-    print()
-
+    
     for i in range(0, n):
         for j in range(0, n):
             if i == 0 or i == (n - 1):
@@ -34,9 +30,3 @@ def square(n: int):
                 else:
                     print(" ", end=" ")
         print()
-
-    print()
-
-
-square_fill(5)
-square(5)
